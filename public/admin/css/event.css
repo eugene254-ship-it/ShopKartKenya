@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    background-color:#595252;
+}
+
+.container {
+    background-color: rgba(24, 23, 23, 0)
+}
+
+.card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 10px
+}
+
+.card .h-1 {
+    font-size: 24px;
+    font-weight: 600
+}
+
+.card .bar {
+    border-top: 1px solid white
+}
+
+.card .bar2 {
+    border-top: 1px dashed white
+}
+
+.card .form-control {
+    background-color: #252525;
+    border: none;
+    box-shadow: none;
+    color: white;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px
+}
+
+.box {
+    position: relative
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    height: 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #2e2e2e;
+    color: #fff
+}
+
+.fas.fa-plus {
+    font-size: 12px
+}
+
+.add.btn {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    height: 100%;
+    transform: translateY(-50%);
+    border-radius: 5px
+}
+
+span.fas.fa-stopwatch,
+span.fas.fa-calendar-alt,
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #8f8d8d
+}
+
+.fas.fa-check-circle {
+    color: green
+}
+
+.dis {
+    font-size: 12px
+}
+
+.pic {
+    position: relative;
+    margin-right: 8px
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.pic .fas.fa-times {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    border: 2px solid black;
+    background-color: #8f8d8d;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%
+}
+
+.rounded-circle {
+    height: 30px;
+    width: 30px;
+    background-color: #252525;
+    color: #8f8d8d;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.rounded-circle .fas {
+    font-size: 10px
+}
+
+.rounded-circle .number {
+    font-size: 14px;
+    font-weight: 800
+}
+
+.Radio.form-control {
+    padding: 3px;
+    width: 140px
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 34px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    background-color: #2e2e2e
+}
+
+::placeholder {
+    font-size: 14px
+}
