@@ -56,6 +56,9 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin', 'App\Http\Contr
          //Pricing Route
          Route::get('pricing', 'AdminController@pricing');
 
+         //Profile Details
+        Route::match(['get','post'],'profile','AdminController@profile');
+
         //Update Admin Details
         Route::match(['get','post'],'update-admin-details','AdminController@updateAdminDetails');
 

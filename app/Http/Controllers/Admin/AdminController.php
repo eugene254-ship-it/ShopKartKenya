@@ -14,6 +14,14 @@ class AdminController extends Controller
     public function dashboard(){
         return view('admin.dashboard');
     } 
+
+    public function profile(){
+        return view('admin.profile');
+    } 
+
+
+
+
     public function updateAdminPassword(Request $request){
       if($request->isMethod('post')){
           $data = $request->all();

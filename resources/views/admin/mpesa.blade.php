@@ -1,19 +1,19 @@
 @extends('admin.layout.layout')
 @section('content')
     <div class="container">
-        <div class="row mt-5">
-            <div class="col-sm-8 mx-auto">
+        <div class="mt-5 row">
+            <div class="mx-auto col-sm-8">
                 <div class="card">
                     <div class="card-header">
                         Obtain Access Token
                     </div>
                     <div class="card-body">
                         <h4 id="access_token"></h4>
-                        <button id="getAccessToken" class="btn btn-primary">Request Access Token</button>
+                        <button id="getAccessToken">Request Access Token</button>
                     </div>
                 </div>
 
-                <div class="card mt-5">
+                <div class="mt-5 card">
                     <div class="card-header">Register URLs</div>
                     <div class="card-body">
                         <div id="response"></div>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="card mt-5">
+                <div class="mt-5 card">
                     <div class="card-header">Simulate Transaction</div>
                     <div class="card-body">
                         <div id="c2b_response"></div>

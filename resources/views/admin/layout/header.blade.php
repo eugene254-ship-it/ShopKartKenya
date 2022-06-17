@@ -78,6 +78,10 @@
                     <i class="ti-user"></i>
                     Profile
                     </a>
+                    <a href="{{ url('admin/profile') }}" class="dropdown-item">
+                    <i class="ti-user"></i>
+                    Profile
+                    </a>
                     <a href="{{ url('admin/mpesa') }}" class="dropdown-item">
                     <i class="ti-wallet"></i>
                     Wallet

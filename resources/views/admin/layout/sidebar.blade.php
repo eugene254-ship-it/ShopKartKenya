@@ -23,13 +23,13 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
             <i class="icon-bar-graph menu-icon"></i>
-            <span class="menu-title">Consumer </span>
+            <span class="menu-title">Vendor Details </span>
             <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="charts">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="{{ url('') }}">Social Hub</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="{{ url('') }}">Customer Statistics</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('') }}">Update Details</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('') }}"></a></li>
                 </ul>
             </div>
         </li>
